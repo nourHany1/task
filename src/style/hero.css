@@ -1,0 +1,65 @@
+.hero .container {
+  display: flex;
+}
+
+.container .info {
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+.info h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.info p {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.search-bar {
+  background-color: #eee;
+  display: flex;
+  margin-top: 125px;
+  width: 450px;
+  height: 70px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+
+.search-bar input {
+  background-color: #0C1933;
+  width: 57%;
+  border-radius: 50px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.search-bar button {
+  background-color: #0C1933;
+  border-radius: 50px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  font-size: 24px;
+  font-weight: 700;
+  width: 43%;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  border-left: 2px solid white;
+}
+
+.logos {
+  margin-left: 65px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo p {
+  margin-left: 15px;
+}

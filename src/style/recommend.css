@@ -1,0 +1,54 @@
+.recommend {
+  margin-top: 120px;
+}
+
+.recommend .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.recommend h4 {
+  text-align: center;
+  font-size: 28px;
+  color: #E7267A;
+  font-weight: 600;
+}
+
+.recommend h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.recommend .quotes {
+  background-color: #0C1933;
+  position: relative;
+  padding: 40px;
+}
+
+.recommend .quotes p {
+  line-height: 30px;
+  padding-top: 30px;
+  width: 350px;
+}
+
+.recommend .quote, .star ,.e {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.recommend .star {
+  bottom: 40px;
+}
+.recommend h5 {
+  margin-top: 40px;
+  text-align: center;
+}
+.recommend .p {
+  margin-top: 10px;
+  position: absolute;
+  text-align: center;
+  margin-left: 40px;
+  color: rgba(255, 255, 255, 0.5);
+}

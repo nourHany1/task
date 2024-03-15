@@ -1,0 +1,32 @@
+.what {
+  margin-top: 120px;
+}
+
+.what .container {
+  display: flex;
+  justify-content: center;
+}
+
+.what .what-info {
+  padding: 15px;
+  width: 600px;
+  margin-top: 20px;
+  margin-right: 25px;
+}
+
+.what .what-info h4 {
+  color: #E7267A;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.what .what-info h1 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.what .what-info p {
+  font-weight: 400;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.8);
+}

@@ -1,0 +1,58 @@
+.projects {
+  margin-top: 120px;
+}
+
+.projects .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pro-info {
+  width: 30%;
+}
+
+.pro-info h4 {
+  font-weight: 600;
+  color: #E7267A;
+}
+
+.pro-info h1 {
+  font-weight: 500;
+  font-size: 40px;
+}
+.pro-info p {
+  line-height: 32px;
+}
+
+.pro-info button {
+  color: #E7267A;
+  padding: 15px 30px;
+  border: 1px solid #E7267A;
+  background-color: transparent;
+}
+
+.pro-img {
+  position: relative;
+}
+
+.box1 {
+  position: absolute;
+  left: -370px;
+}
+
+.box2 {
+  position: absolute;
+  left: -70px;
+}
+
+.box3 {
+  position: absolute;
+  left: -370px;
+  bottom: -155px;
+}
+
+.box4 {
+  position: absolute;
+  left: -70px;
+  bottom: -155px;
+}

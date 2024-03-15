@@ -1,0 +1,32 @@
+.about .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.about .about-info {
+  border-top-left-radius: 16px;
+  width: 700px;
+  line-height: 24.1px;
+  padding: 15px;
+  background-image: linear-gradient(to bottom, rgba(231, 38, 122, 0.6), rgba(231, 38, 122, 0.3),rgba(151, 60, 68, 0.05),rgba(231, 38, 122, 0.1));
+}
+
+.about .analysis{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 120px;
+  text-align: center;
+}
+
+.about .analys h1{
+  font-size: 64px;
+  font-weight: 700;
+  color:  #E7267A;
+}
+.about .analys p{
+  font-size: 25px;
+  font-weight: 600;
+  color:  rgba(255, 255, 255, 0.8);
+}
